@@ -7,7 +7,7 @@ const StyleContent = styled.div`
     padding-top:20vh;
 `
 const StyleCardList = styled(Col)`
- border:1px solid #000
+//  border:1px solid #000
 `
 
 export default function HeroListPage ({ match }) {

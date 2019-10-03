@@ -14,6 +14,9 @@ const StyleContent = styled.div`
     background-size:cover;
     opacity:.8
 `
+export const ContextStore = React.createContext({
+  hero: {}
+})
 
 function App () {
   return (

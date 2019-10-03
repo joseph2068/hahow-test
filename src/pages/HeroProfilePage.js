@@ -2,12 +2,13 @@ import React from 'react'
 import styled from 'styled-components'
 import { Container, Row, Col } from 'react-bootstrap'
 import HeroList from '../container/HeroList'
+import HeroProfile from '../container/HeroProfile'
 
 const StyleContent = styled.div`
     padding-top:20vh;
 `
 const StyleCardList = styled(Col)`
- border:1px solid #000
+//  border:1px solid #000
 `
 
 export default function HeroProfilePage ({ match }) {
@@ -22,6 +23,7 @@ export default function HeroProfilePage ({ match }) {
             </Col>
             <StyleCardList xs={12} md={10}>
               <HeroList/>
+              <HeroProfile/>
             </StyleCardList>
             <Col xs={12} md={1}>
             </Col>
